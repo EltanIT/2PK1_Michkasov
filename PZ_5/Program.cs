@@ -47,13 +47,10 @@ namespace PZ_5
 
 
             Console.WriteLine("\nЗадание 5");
-            int i = 5;
-            int j = 64;
-            while (j - i != 23)
+            for (int i = 5, j=64; j - i != 23; ++i, --j)
             {
-                Console.WriteLine($"i = {++i}");
-                Console.WriteLine($" j = {--j}");
-
+                Console.WriteLine($"i = {i}");
+                Console.WriteLine($" j = {j}");
             }
         }
     }
