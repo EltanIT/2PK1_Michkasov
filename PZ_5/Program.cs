@@ -43,12 +43,13 @@ namespace PZ_5
                     Console.Write($"{u} ");
                 }
             }
+            Console.WriteLine();
 
 
             Console.WriteLine("\nЗадание 5");
             int i = 5;
             int j = 64;
-            while (j-i != 23)
+            while (j - i != 23)
             {
                 Console.WriteLine($"i = {++i}");
                 Console.WriteLine($" j = {--j}");
