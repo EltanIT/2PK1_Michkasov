@@ -6,7 +6,7 @@ namespace PZ_6
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Вариант 18");
+            Console.WriteLine("18 Вариант");
             double x, y, h;
             x = 1;
             h = 0.2;
