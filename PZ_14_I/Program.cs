@@ -15,6 +15,7 @@ namespace PZ_14_I
             ArifmeticAl(n, a);
             Z2();
             Z3();
+            Z_na_5();
         }
         static void ArifmeticAl(int n, int a)
         {
@@ -91,6 +92,28 @@ namespace PZ_14_I
                 A--;
                 Arifmetic(A, B);
             }
+        }
+
+        static void Z_na_5()
+        {
+            result = 1;
+            Console.WriteLine("Задание на 5 №1");
+            Console.Write("Введите число для расчета его факториала: ");
+            int x = int.Parse(Console.ReadLine());
+            ArifmeticaFac(x);
+            Console.WriteLine($"Ответ: {result}");
+        }
+
+        public static int a = 1;
+        static void ArifmeticaFac(int x)
+        {
+            if (a < x)
+            {
+                a++;
+                result += a;
+                ArifmeticaFac(x);
+            }
+            
         }
     }
 }
