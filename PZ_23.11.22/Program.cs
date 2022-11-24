@@ -17,9 +17,12 @@ namespace PZ_23._11._22
 
             FileStream fileStream2 = new FileStream(@"D:\text.txt", FileMode.OpenOrCreate);
             StreamReader streamReader = new StreamReader(fileStream2);
+            
             string str2 = streamReader.ReadToEnd();
             streamReader.Close();
             Console.WriteLine($"Содержимое вашего файла:{str2}");
         }
+
+        
     }
 }
