@@ -7,6 +7,8 @@ namespace PZ_15
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Вариант 15\n");
+
             FileStream fileStream = new FileStream(@"D:\text.txt", FileMode.Append);
 
             Console.WriteLine("Введите произвольную строку в ваш файл:");

@@ -27,6 +27,8 @@ namespace PZ_17
             }
             Console.WriteLine((byte)Byte[0]); 
 
+            
+
         }
     }
 }
