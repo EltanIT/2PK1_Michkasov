@@ -6,6 +6,7 @@ namespace PZ_17
     {
        unsafe static void Main(string[] args)
         {
+            Console.WriteLine("Вариант 3");
             double Double = 10;
             double* p = &Double;
             int DoubleAdress = (int)p;
@@ -25,9 +26,7 @@ namespace PZ_17
                     tt[i] = (byte)resChar[i];
                 }
             }
-            Console.WriteLine((byte)Byte[0]); 
-
-            
+            Console.WriteLine((byte)Byte[0]);    
 
         }
     }
