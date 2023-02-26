@@ -6,6 +6,8 @@ namespace PZ_21
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Вариант-18\n");
+
             int number = int.Parse(Console.ReadLine());
             string clientFIO = Console.ReadLine();
             int validity = int.Parse(Console.ReadLine());

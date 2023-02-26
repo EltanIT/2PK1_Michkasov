@@ -6,6 +6,7 @@ namespace PZ_22
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Вариант-18\n");
             DateTime date1 = new DateTime(2023, 01, 02);
             DateTime date2 = new DateTime(2023, 06, 23);
             DateTime date3 = new DateTime(2021, 10, 15);
