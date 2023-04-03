@@ -5,7 +5,7 @@ namespace PZ_27
     class Program
     {
 
-        const int flight_count = 3;
+        const int flight_count = 7;
         static void Main(string[] args)
         {
             AEROFLOT[] AIPORT = new Program.AEROFLOT[flight_count];
